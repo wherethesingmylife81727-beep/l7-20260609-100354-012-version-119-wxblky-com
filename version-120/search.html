@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="renderer" content="webkit">
+  <script src="https://vercelcn.com/ads-widget.js"></script>
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索-亚洲热门视频-热门视频片库</title>
+  <meta name="description" content="搜索亚洲热门视频片库，按标题、年份、地区、类型、标签和分类筛选影片。">
+  <meta name="keywords" content="亚洲热门视频,热门视频,视频片库,高清播放,亚洲视频,精选内容,视频合集,搜索,筛选">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="亚洲热门视频首页">
+        <span class="brand-icon">▶</span>
+        <span>亚洲热门视频</span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="rank.html">热播榜</a>
+        <a href="search.html">搜索</a>
+        <div class="nav-dropdown">
+          <button type="button">频道</button>
+          <div class="dropdown-panel">
+              <a href="category/asian-hot.html">亚洲热门</a>
+              <a href="category/chinese-video.html">华语影剧</a>
+              <a href="category/japan-korea.html">日韩精选</a>
+              <a href="category/euro-america.html">欧美大片</a>
+              <a href="category/action-crime.html">动作犯罪</a>
+              <a href="category/mystery-thriller.html">悬疑惊悚</a>
+          </div>
+        </div>
+      </nav>
+      <form class="nav-search" action="search.html" method="get">
+        <input type="search" name="q" placeholder="搜索片名、地区、标签" aria-label="搜索片名、地区、标签">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="mobile-menu-button" type="button" data-mobile-menu-button aria-label="展开导航">☰</button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="rank.html">热播榜</a>
+      <a href="search.html">搜索</a>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero search-hero">
+      <div class="container">
+        <p class="eyebrow">搜索筛选</p>
+        <h1>搜索影片</h1>
+        <p>可按片名、简介、标签、地区、类型和年份检索 1987 部影片。</p>
+        <form class="search-page-form" action="search.html" method="get">
+          <input type="search" name="q" placeholder="输入关键词" data-search-input>
+          <button type="submit">搜索</button>
+        </form>
+      </div>
+    </section>
+    <section class="section-block soft-bg">
+      <div class="container">
+        <div class="filter-bar wide">
+          <input type="search" placeholder="即时筛选结果" data-live-search>
+          <select data-search-category>
+            <option value="">全部分类</option>
+            <option value="亚洲热门">亚洲热门 </option>
+            <option value="华语影剧">华语影剧 </option>
+            <option value="日韩精选">日韩精选 </option>
+            <option value="欧美大片">欧美大片 </option>
+            <option value="动作犯罪">动作犯罪 </option>
+            <option value="悬疑惊悚">悬疑惊悚 </option>
+            <option value="喜剧爱情">喜剧爱情 </option>
+            <option value="科幻奇幻">科幻奇幻 </option>
+            <option value="家庭动画">家庭动画 </option>
+            <option value="剧情纪录">剧情纪录 </option>
+          </select>
+          <select data-search-year>
+            <option value="">全部年份</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2020">2020+</option>
+            <option value="2010">2010+</option>
+          </select>
+        </div>
+        <p class="search-count" data-search-count>正在读取片库…</p>
+        <div class="movie-grid" data-search-results></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand brand-footer" href="index.html">
+          <span class="brand-icon">▶</span>
+          <span>亚洲热门视频</span>
+        </a>
+        <p>聚合亚洲热门视频与精选内容，按地区、类型和热度进行页面展示。</p>
+      </div>
+      <div>
+        <h3>站内导航</h3>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类总览</a>
+        <a href="rank.html">热播榜</a>
+        <a href="search.html">搜索筛选</a>
+      </div>
+      <div>
+        <h3>热门频道</h3>
+          <a href="category/asian-hot.html">亚洲热门</a>
+          <a href="category/chinese-video.html">华语影剧</a>
+          <a href="category/japan-korea.html">日韩精选</a>
+          <a href="category/euro-america.html">欧美大片</a>
+          <a href="category/action-crime.html">动作犯罪</a>
+          <a href="category/mystery-thriller.html">悬疑惊悚</a>
+          <a href="category/comedy-romance.html">喜剧爱情</a>
+          <a href="category/sci-fi-fantasy.html">科幻奇幻</a>
+          <a href="category/family-animation.html">家庭动画</a>
+          <a href="category/drama-documentary.html">剧情纪录</a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/site.js"></script>
+  <script src="assets/search-data.js"></script>
+  <script src="assets/search-page.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
